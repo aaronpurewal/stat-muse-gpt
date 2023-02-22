@@ -1,6 +1,6 @@
 import os
-os.environ['OPENAI_API_KEY'] = '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'
-os.environ['SERPAPI_API_KEY']="426c3fd2b81ff094bbd77625d0a264e6fe5a6a00f1a1991458e50205bc9a766d"
+os.environ['OPENAI_API_KEY'] = '<APIKEY>'
+os.environ['SERPAPI_API_KEY']="<APIKEY>"
 
 from langchain.agents import load_tools
 from langchain.agents import initialize_agent, Tool
